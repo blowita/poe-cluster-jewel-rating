@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/poe-cluster-jewel-rating/static/js/main.7b0a0f96.chunk.js",
+    "main.js.map": "/poe-cluster-jewel-rating/static/js/main.7b0a0f96.chunk.js.map",
+    "runtime-main.js": "/poe-cluster-jewel-rating/static/js/runtime-main.51c535b9.js",
+    "runtime-main.js.map": "/poe-cluster-jewel-rating/static/js/runtime-main.51c535b9.js.map",
+    "static/js/2.57c48b7c.chunk.js": "/poe-cluster-jewel-rating/static/js/2.57c48b7c.chunk.js",
+    "static/js/2.57c48b7c.chunk.js.map": "/poe-cluster-jewel-rating/static/js/2.57c48b7c.chunk.js.map",
+    "index.html": "/poe-cluster-jewel-rating/index.html",
+    "precache-manifest.43f566b02d3f7a44e855bea76468b123.js": "/poe-cluster-jewel-rating/precache-manifest.43f566b02d3f7a44e855bea76468b123.js",
+    "service-worker.js": "/poe-cluster-jewel-rating/service-worker.js",
+    "static/js/2.57c48b7c.chunk.js.LICENSE.txt": "/poe-cluster-jewel-rating/static/js/2.57c48b7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51c535b9.js",
+    "static/js/2.57c48b7c.chunk.js",
+    "static/js/main.7b0a0f96.chunk.js"
+  ]
+}
