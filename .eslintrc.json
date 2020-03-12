@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "standard", "standard-react", "plugin:prettier/recommended"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": ["react-hooks"],
+    "rules": {
+        "camelcase": "off",
+        "eol-last": [
+            "error",
+            "always"
+        ],
+        "indent": "off",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "varsIgnorePattern": "^React$"
+            }
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "semi": false,
+                "singleQuote": true,
+                "trailingComma": "es5"
+            }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            "avoid-escape"
+        ],
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-curly-newline": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "semi": [
+            "error",
+            "never"
+        ]
+    }
+}
