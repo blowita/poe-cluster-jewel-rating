@@ -1,7 +1,7 @@
 const notables = [
   {
     name: 'Prodigious Defence',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '3% Chance to Block Spell Damage',
       '30% increased Attack Damage while holding a Shield',
@@ -10,7 +10,7 @@ const notables = [
   },
   {
     name: 'Advance Guard',
-    image: '/assets/HoldingShieldDamage.png',
+    image: 'assets/HoldingShieldDamage.png',
     stats: [
       'Attack Skills deal 30% increased Damage while holding a Shield',
       'Ignore all Movement Penalties from Armour',
@@ -19,7 +19,7 @@ const notables = [
   },
   {
     name: 'Gladiatorial Combat',
-    image: '/assets/HoldingShieldDamage.png',
+    image: 'assets/HoldingShieldDamage.png',
     stats: [
       '2% increased Attack Damage per 75 Armour or Evasion Rating on Shield',
       '+1% to Critical Strike Multiplier per 10 Maximum Energy Shield on Shield',
@@ -27,7 +27,7 @@ const notables = [
   },
   {
     name: 'Strike Leader',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       'Attack Skills deal 30% increased Damage while holding a Shield',
       '+2% Chance to Block Attack Damage',
@@ -36,7 +36,7 @@ const notables = [
   },
   {
     name: 'Powerful Ward',
-    image: '/assets/BlockSpellDmgNotable.png',
+    image: 'assets/BlockSpellDmgNotable.png',
     stats: [
       '20% chance to gain a Power Charge when you Block',
       '+6% Chance to Block Spell Damage while at Maximum Power Charges',
@@ -44,7 +44,7 @@ const notables = [
   },
   {
     name: 'Enduring Ward',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '20% chance to gain an Endurance Charge when you Block',
       '+6% Chance to Block Attack Damage while at Maximum Endurance Charges',
@@ -52,7 +52,7 @@ const notables = [
   },
   {
     name: "Gladiator's Fortitude",
-    image: '/assets/HoldingShieldDamage.png',
+    image: 'assets/HoldingShieldDamage.png',
     stats: [
       'Attack Skills deal 25% increased Damage while holding a Shield',
       '5% increased maximum Life',
@@ -60,7 +60,7 @@ const notables = [
   },
   {
     name: 'Precise Retaliation',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '80% increased Critical Strike Chance if you haven’t Blocked Recently',
       '+40% to Critical Strike Multiplier if you have Blocked Recently',
@@ -68,7 +68,7 @@ const notables = [
   },
   {
     name: 'Veteran Defender',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '+15 to all Attributes',
       '+15% Elemental Resistances while holding a Shield',
@@ -77,7 +77,7 @@ const notables = [
   },
   {
     name: 'Iron Breaker',
-    image: '/assets/IncreasedPhysicalDamage.png',
+    image: 'assets/IncreasedPhysicalDamage.png',
     stats: [
       'Enemies have -10% to Total Physical Damage Reduction against your Hits',
       '35% increased Physical Damage',
@@ -85,7 +85,7 @@ const notables = [
   },
   {
     name: 'Deep Cuts',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '15% chance to Impale Enemies on Hit with Attacks',
       'Impales you inflict last 1 additional Hit',
@@ -93,7 +93,7 @@ const notables = [
   },
   {
     name: 'Master the Fundamentals',
-    image: '/assets/IncreasedPhysicalDamage.png',
+    image: 'assets/IncreasedPhysicalDamage.png',
     stats: [
       '+10% to all Elemental Resistances',
       '35% reduced Elemental Damage',
@@ -102,12 +102,12 @@ const notables = [
   },
   {
     name: 'Force Multiplier',
-    image: '/assets/IncreasedPhysicalDamage.png',
+    image: 'assets/IncreasedPhysicalDamage.png',
     stats: ['5% chance to deal Double Damage', '25% increased Physical Damage'],
   },
   {
     name: 'Furious Assault',
-    image: '/assets/IncreasedPhysicalDamage.png',
+    image: 'assets/IncreasedPhysicalDamage.png',
     stats: [
       '8% increased Attack and Cast Speed',
       '25% increased Physical Damage',
@@ -115,7 +115,7 @@ const notables = [
   },
   {
     name: 'Vicious Skewering',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       'Attacks have 10% chance to cause Bleeding',
       '10% chance to Impale Enemies on Hit with Attacks',
@@ -124,12 +124,12 @@ const notables = [
   },
   {
     name: 'Grim Oath',
-    image: '/assets/IncreasedPhysicalDamage.png',
+    image: 'assets/IncreasedPhysicalDamage.png',
     stats: ['Gain 10% of Physical Damage as Extra Chaos Damage'],
   },
   {
     name: 'Battle-Hardened',
-    image: '/assets/IncreasedPhysicalDamage.png',
+    image: 'assets/IncreasedPhysicalDamage.png',
     stats: [
       '30% increased Evasion Rating and Armour',
       '35% increased Physical Damage',
@@ -137,7 +137,7 @@ const notables = [
   },
   {
     name: 'Replenishing Presence',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       '8% increased effect of Non-Curse Auras from your Skills',
       'Auras from your Skills grant 0.2% of Life Regenerated per second to',
@@ -146,7 +146,7 @@ const notables = [
   },
   {
     name: 'Master of Command',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       '50% reduced Mana Reservation of Banner Skills',
       '15% increased Effect of Non-Curse Auras from your Skills on Enemies',
@@ -154,7 +154,7 @@ const notables = [
   },
   {
     name: 'First Among Equals',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       '10% increased effect of Non-Curse Auras from your Skills',
       'Non-Curse Aura Skills have 20% increased Duration',
@@ -162,14 +162,14 @@ const notables = [
   },
   {
     name: 'Purposeful Harbinger',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       '10% increased Effect of Auras on You for each Herald affecting you',
     ],
   },
   {
     name: 'Precise Commander',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       'You and nearby Allies have 50% increased Critical Strike Chance',
       'You and nearby Allies have +15% to Critical Strike Multiplier',
@@ -177,7 +177,7 @@ const notables = [
   },
   {
     name: 'Pure Commander',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       'Purity of Elements has 30% increased Aura Effect',
       'Purity of Fire has 30% increased Aura Effect',
@@ -187,7 +187,7 @@ const notables = [
   },
   {
     name: 'Stalwart Commander',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       'Grace has 30% increased Aura Effect',
       'Determination has 30% increased Aura Effect',
@@ -196,7 +196,7 @@ const notables = [
   },
   {
     name: 'Vengeful Commander',
-    image: '/assets/AuraEffectNotable.png',
+    image: 'assets/AuraEffectNotable.png',
     stats: [
       'Anger has 30% increased Aura Effect',
       'Wrath has 30% increased Aura Effect',
@@ -205,7 +205,7 @@ const notables = [
   },
   {
     name: 'Skullbreaker',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: [
       '8% reduced Enemy Stun Threshold',
       '+20% to Critical Strike Multiplier',
@@ -213,7 +213,7 @@ const notables = [
   },
   {
     name: 'Pressure Points',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: [
       'Your Critical Strikes have a 5% chance to deal Double Damage',
       '40% increased Critical Strike Chance',
@@ -221,12 +221,12 @@ const notables = [
   },
   {
     name: 'Overwhelming Malice',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: ['10% chance to gain Unholy Might for 4 seconds on Critical Strike'],
   },
   {
     name: 'Magnifier',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '10% increased Area of Effect',
       '10% increased Area Damage',
@@ -235,7 +235,7 @@ const notables = [
   },
   {
     name: 'Savage Response',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: [
       "+50% to Critical Strike Multiplier if you've taken a Savage Hit Recently",
       '40% increased Critical Strike Chance',
@@ -243,7 +243,7 @@ const notables = [
   },
   {
     name: 'Eye of the Storm',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: [
       '+20% to Damage over Time Multiplier for Ignite from Critical Strikes',
       '20% increased Effect of Chill you inflict with Critical Strikes',
@@ -253,12 +253,12 @@ const notables = [
   },
   {
     name: 'Basics of Pain',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: ['20% increased Damage', '30% increased Critical Strike Chance'],
   },
   {
     name: 'Quick Getaway',
-    image: '/assets/IncreaseCritChanceNotable.png',
+    image: 'assets/IncreaseCritChanceNotable.png',
     stats: [
       '5% increased Attack and Cast Speed',
       "5% increased Movement Speed if you've dealt a Critical Strike Recently",
@@ -267,7 +267,7 @@ const notables = [
   },
   {
     name: 'Assert Dominance',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '10% increased Area Damage',
       "15% increased Area of Effect if you've Killed Recently",
@@ -276,7 +276,7 @@ const notables = [
   },
   {
     name: 'Vast Power',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '20% increased Area Damage',
       '3% increased Area of Effect per Power Charge',
@@ -284,7 +284,7 @@ const notables = [
   },
   {
     name: 'Powerful Assault',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '20% increased Area Damage',
       'Area Skills have 10% chance to Knock Enemies Back on Hit',
@@ -292,7 +292,7 @@ const notables = [
   },
   {
     name: 'Intensity',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '10% increased Area Damage',
       'Skills supported by Intensify have +1 to maximum Intensity',
@@ -300,7 +300,7 @@ const notables = [
   },
   {
     name: 'Titanic Swings',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '20% increased Area Damage while wielding a Two Handed Melee Weapon',
       '15% increased Area of Effect while wielding a Two Handed Melee Weapon',
@@ -308,7 +308,7 @@ const notables = [
   },
   {
     name: 'Towering Threat',
-    image: '/assets/AreaDmgNotable.png',
+    image: 'assets/AreaDmgNotable.png',
     stats: [
       '5% increased maximum Life',
       '10% increased Area of Effect',
@@ -317,7 +317,7 @@ const notables = [
   },
   {
     name: 'Ancestral Echo',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '20% increased Totem Placement speed',
       "10% increased Attack and Cast Speed if you've summoned a Totem Recently",
@@ -325,7 +325,7 @@ const notables = [
   },
   {
     name: 'Ancestral Reach',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '25% increased Totem Damage',
       '25% increased Totem Placement speed',
@@ -334,7 +334,7 @@ const notables = [
   },
   {
     name: 'Ancestral Might',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '20% increased Totem Damage',
       '30% increased Totem Duration',
@@ -343,7 +343,7 @@ const notables = [
   },
   {
     name: 'Ancestral Preservation',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '30% increased Totem Life',
       'Totems have 10% additional Physical Damage Reduction',
@@ -352,7 +352,7 @@ const notables = [
   },
   {
     name: 'Snaring Spirits',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '30% increased Totem Damage',
       'Totems Hinder Enemies near them when Summoned, with 25% reduced Movement Speed',
@@ -360,7 +360,7 @@ const notables = [
   },
   {
     name: 'Sleepless Sentries',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '20% increased Totem Damage',
       '20% increased Totem Duration',
@@ -369,7 +369,7 @@ const notables = [
   },
   {
     name: 'Ancestral Guidance',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       '30% increased Effect of Buffs granted by your Active Ancestor Totems',
       "Totems' Action Speed cannot be modified to below base value",
@@ -377,7 +377,7 @@ const notables = [
   },
   {
     name: 'Ancestral Inspiration',
-    image: '/assets/TotemDmgNotable.png',
+    image: 'assets/TotemDmgNotable.png',
     stats: [
       'Gain Arcane Surge when you Summon a Totem',
       'Spells cast by Totems deal 25% increased Damage',
@@ -385,7 +385,7 @@ const notables = [
   },
   {
     name: 'Vital Focus',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       'Channelling Skills deal 30% increased Damage',
       'Regenerate 1.5% of Life per second while Channelling',
@@ -393,7 +393,7 @@ const notables = [
   },
   {
     name: 'Rapid Infusion',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       '50% increased Effect of Infusion',
       '5% increased Movement Speed while you have Infusion',
@@ -401,7 +401,7 @@ const notables = [
   },
   {
     name: 'Unwavering Focus',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       '40% chance to Avoid being Stunned while Channelling',
       'Channelling Skills deal 25% increased Damage',
@@ -410,7 +410,7 @@ const notables = [
   },
   {
     name: 'Enduring Focus',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       'Channelling Skills deal 25% increased Damage',
       '25% chance to gain an Endurance Charge each second while Channelling',
@@ -418,7 +418,7 @@ const notables = [
   },
   {
     name: 'Precise Focus',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       '50% increased Critical Strike Chance while Channelling',
       "+30% to Critical Strike Multiplier if you've been Channelling for at least 1 second",
@@ -426,7 +426,7 @@ const notables = [
   },
   {
     name: 'Stoic Focus',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       '+4% Chance to Block Attack Damage while Channelling',
       '+4% Chance to Block Spell Damage while Channelling',
@@ -435,7 +435,7 @@ const notables = [
   },
   {
     name: 'Hex Breaker',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       '8% increased Attack and Cast Speed while Channelling',
       'Immune to Curses while Channelling',
@@ -443,7 +443,7 @@ const notables = [
   },
   {
     name: 'Arcane Adept',
-    image: '/assets/DmgWhenChannelSkillsNotable.png',
+    image: 'assets/DmgWhenChannelSkillsNotable.png',
     stats: [
       '5% increased Attack and Cast Speed while Channelling',
       'Channelling Skills deal 20% increased Damage',
@@ -452,7 +452,7 @@ const notables = [
   },
   {
     name: 'Distilled Perfection',
-    image: '/assets/LifeManaFlasksrecovery.png',
+    image: 'assets/LifeManaFlasksrecovery.png',
     stats: [
       '25% increased Life Recovery from Flasks',
       '25% increased Mana Recovery from Flasks',
@@ -461,7 +461,7 @@ const notables = [
   },
   {
     name: 'Spiked Concoction',
-    image: '/assets/FlaskDuration.png',
+    image: 'assets/FlaskDuration.png',
     stats: [
       'Flasks applied to you have 10% increased Effect',
       '5% increased Attack and Cast Speed during any Flask Effect',
@@ -469,7 +469,7 @@ const notables = [
   },
   {
     name: 'Fasting',
-    image: '/assets/FlaskDuration.png',
+    image: 'assets/FlaskDuration.png',
     stats: [
       '20% increased Flask Charges gained',
       '20% increased Movement Speed while under no Flask Effects',
@@ -477,7 +477,7 @@ const notables = [
   },
   {
     name: "Mender's Wellspring",
-    image: '/assets/LifeManaFlasksrecovery.png',
+    image: 'assets/LifeManaFlasksrecovery.png',
     stats: [
       '25% increased Life Recovery from Flasks',
       'Life Flasks gain 1 Charge every 3 seconds',
@@ -486,7 +486,7 @@ const notables = [
   },
   {
     name: 'Special Reserve',
-    image: '/assets/LifeManaFlasksrecovery.png',
+    image: 'assets/LifeManaFlasksrecovery.png',
     stats: [
       '20% increased Damage during any Flask Effect',
       'Regenerate 2% of Life per second during any Flask Effect',
@@ -494,7 +494,7 @@ const notables = [
   },
   {
     name: 'Numbing Elixir',
-    image: '/assets/LifeManaFlasksrecovery.png',
+    image: 'assets/LifeManaFlasksrecovery.png',
     stats: [
       '25% increased Life Recovery from Flasks',
       '25% increased Mana Recovery from Flasks',
@@ -503,7 +503,7 @@ const notables = [
   },
   {
     name: 'Mob Mentality',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       '20% increased Warcry Cooldown Recovery Speed',
       'You and nearby Party members gain 5 Rage when you Warcry',
@@ -511,7 +511,7 @@ const notables = [
   },
   {
     name: 'Cry Wolf',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       '30% increased Warcry Duration',
       'Warcries count as having 10 additional nearby Enemies',
@@ -520,7 +520,7 @@ const notables = [
   },
   {
     name: 'Haunting Shout',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       '20% increased Warcry Cooldown Recovery Speed',
       'Enemies Taunted by your Warcries are Intimidated',
@@ -529,7 +529,7 @@ const notables = [
   },
   {
     name: 'Lead By Example',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       "4% additional Physical Damage Reduction if you've Warcried in the past 8 seconds",
       "4% chance to deal Double Damage if you've Warcried in the past 8 seconds",
@@ -537,7 +537,7 @@ const notables = [
   },
   {
     name: 'Provocateur',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       '40% increased Critical Strike Chance against Taunted Enemies',
       '+15% to Critical Strike Multiplier against Taunted Enemies',
@@ -546,7 +546,7 @@ const notables = [
   },
   {
     name: 'Warning Call',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       '20% increased Warcry Cooldown Recovery Speed',
       "50% increased Melee Critical Strike Chance if you've Warcried Recently",
@@ -555,7 +555,7 @@ const notables = [
   },
   {
     name: 'Rattling Bellow',
-    image: '/assets/IncreasedWarcryNotable.png',
+    image: 'assets/IncreasedWarcryNotable.png',
     stats: [
       'Enemies Taunted by you take 5% increased Damage',
       'Warcry Skills have 40% increased Area of Effect',
@@ -563,14 +563,14 @@ const notables = [
   },
   {
     name: 'Bloodscent',
-    image: '/assets/AxeandSwordDamage.png',
+    image: 'assets/AxeandSwordDamage.png',
     stats: [
       'Attacks with Axes or Swords grant 1 Rage on Hit, no more than once every second',
     ],
   },
   {
     name: 'Run Through',
-    image: '/assets/AxeandSwordDamage.png',
+    image: 'assets/AxeandSwordDamage.png',
     stats: [
       'Axe or Sword Attacks deal 15% increased Damage with Ailments',
       '10% increased Impale Effect',
@@ -580,7 +580,7 @@ const notables = [
   },
   {
     name: 'Wound Aggravation',
-    image: '/assets/AxeandSwordDamage.png',
+    image: 'assets/AxeandSwordDamage.png',
     stats: [
       'Axe or Sword Attacks deal 20% increased Damage with Ailments',
       '20% increased Physical Damage with Axes or Swords',
@@ -589,7 +589,7 @@ const notables = [
   },
   {
     name: 'Overlord',
-    image: '/assets/MaceandStaffDamage.png',
+    image: 'assets/MaceandStaffDamage.png',
     stats: [
       '30% increased Damage with Maces, Sceptres or Staves',
       'Gain Fortify for 6 seconds on Melee Hit with a Mace, Sceptre or Staff',
@@ -597,7 +597,7 @@ const notables = [
   },
   {
     name: 'Expansive Might',
-    image: '/assets/MaceandStaffDamage.png',
+    image: 'assets/MaceandStaffDamage.png',
     stats: [
       'Mace, Sceptre or Staff Attacks deal 20% increased Damage with Hits and Ailments',
       'While stationary, gain 10% increased Area of Effect every second, up to a maximum of 50%',
@@ -605,7 +605,7 @@ const notables = [
   },
   {
     name: 'Weight Advantage',
-    image: '/assets/MaceandStaffDamage.png',
+    image: 'assets/MaceandStaffDamage.png',
     stats: [
       'Mace, Sceptre or Staff Attacks deal 30% increased Damage with Hits and Ailments',
       '4% chance to deal Double Damage while wielding a Mace, Sceptre or Staff',
@@ -614,7 +614,7 @@ const notables = [
   },
   {
     name: 'Wind-up',
-    image: '/assets/DaggerandClawDamage.png',
+    image: 'assets/DaggerandClawDamage.png',
     stats: [
       '+15% to Critical Strike Multiplier with Claws or Daggers',
       '10% chance to gain a Power Charge on Non-Critical Strike with a Claw or Dagger',
@@ -622,7 +622,7 @@ const notables = [
   },
   {
     name: 'Fan of Blades',
-    image: '/assets/DaggerandClawDamage.png',
+    image: 'assets/DaggerandClawDamage.png',
     stats: [
       'Attack Skills fire an additional Projectile while wielding a Claw or Dagger',
       '20% increased Projectile Attack Damage with Claws or Daggers',
@@ -630,7 +630,7 @@ const notables = [
   },
   {
     name: 'Disease Vector',
-    image: '/assets/DaggerandClawDamage.png',
+    image: 'assets/DaggerandClawDamage.png',
     stats: [
       'Enemies Poisoned by you cannot Regenerate Life',
       '+10% to Damage over Time Multiplier for Poison while wielding a Claw or Dagger',
@@ -638,7 +638,7 @@ const notables = [
   },
   {
     name: 'Arcing Shot',
-    image: '/assets/BowDamage.png',
+    image: 'assets/BowDamage.png',
     stats: [
       'Arrows gain Critical Strike Chance as they travel farther, up to 100% increased Critical Strike Chance',
       'Arrows gain Damage as they travel farther, dealing up to 50% increased Damage with Hits to targets',
@@ -646,7 +646,7 @@ const notables = [
   },
   {
     name: 'Tempered Arrowheads',
-    image: '/assets/BowDamage.png',
+    image: 'assets/BowDamage.png',
     stats: [
       'Bow Skills have +10% to Damage over Time Multiplier',
       'Bow Skills have 20% increased Skill Effect Duration',
@@ -655,12 +655,12 @@ const notables = [
   },
   {
     name: 'Broadside',
-    image: '/assets/BowDamage.png',
+    image: 'assets/BowDamage.png',
     stats: ['Bow Skills have 25% increased Area of Effect'],
   },
   {
     name: 'Explosive Force',
-    image: '/assets/WandDamage.png',
+    image: 'assets/WandDamage.png',
     stats: [
       'Enemies killed by your Wand Hits have a 10% chance to Explode, dealing a quarter of their Life as Chaos Damage',
       'Gain 10% of Wand Physical Damage as Extra Chaos Damage',
@@ -668,7 +668,7 @@ const notables = [
   },
   {
     name: 'Opportunistic Fusilade',
-    image: '/assets/WandDamage.png',
+    image: 'assets/WandDamage.png',
     stats: [
       '50% increased Critical Strike Chance with Wands',
       "35% increased Damage with Wands if you've dealt a Critical Strike Recently",
@@ -676,7 +676,7 @@ const notables = [
   },
   {
     name: "Storm's Hand",
-    image: '/assets/WandDamage.png',
+    image: 'assets/WandDamage.png',
     stats: [
       'Gain 10% of Wand Physical Damage as Extra Lightning Damage',
       '25% of Wand Physical Damage converted to Lightning Damage',
@@ -684,7 +684,7 @@ const notables = [
   },
   {
     name: 'Battlefield Dominator',
-    image: '/assets/TwoHandedMeleeDamage.png',
+    image: 'assets/TwoHandedMeleeDamage.png',
     stats: [
       'Attacks with Two Handed Weapons deal 25% increased Damage with Hits and Ailments',
       '10% reduced Enemy Stun Threshold',
@@ -693,7 +693,7 @@ const notables = [
   },
   {
     name: 'Martial Mastery',
-    image: '/assets/TwoHandedMeleeDamage.png',
+    image: 'assets/TwoHandedMeleeDamage.png',
     stats: [
       '10% increased Attack Speed with Two Handed Melee Weapons',
       '10% increased Attack Speed if you have at least 600 Strength',
@@ -702,7 +702,7 @@ const notables = [
   },
   {
     name: 'Surefooted Striker',
-    image: '/assets/TwoHandedMeleeDamage.png',
+    image: 'assets/TwoHandedMeleeDamage.png',
     stats: [
       '40% increased Critical Strike Chance with Two Handed Melee Weapons',
       "8% chance to deal Double Damage if you've dealt a Critical Strike with a Two Handed Melee Weapon Recently",
@@ -710,7 +710,7 @@ const notables = [
   },
   {
     name: 'Graceful Execution',
-    image: '/assets/TwoHandedMeleeDamage.png',
+    image: 'assets/TwoHandedMeleeDamage.png',
     stats: [
       '5% increased Attack Speed with Two Handed Melee Weapons',
       '15% increased Accuracy Rating with Two Handed Melee Weapons',
@@ -720,14 +720,14 @@ const notables = [
   },
   {
     name: 'Brutal Infamy',
-    image: '/assets/TwoHandedMeleeDamage.png',
+    image: 'assets/TwoHandedMeleeDamage.png',
     stats: [
       '40% increased Damage with Hits and Ailments against Unique Enemies',
     ],
   },
   {
     name: 'Fearsome Warrior',
-    image: '/assets/TwoHandedMeleeDamage.png',
+    image: 'assets/TwoHandedMeleeDamage.png',
     stats: [
       '8% increased Area of Effect',
       '25% chance to Intimidate nearby Enemies for 4 seconds on Melee Kill',
@@ -735,7 +735,7 @@ const notables = [
   },
   {
     name: 'Combat Rhythm',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       "10% increased Attack Speed if you've Hit with your Main Hand Weapon Recently",
       "10% increased Movement Speed if you've Hit with your Off Hand Weapon Recently",
@@ -743,7 +743,7 @@ const notables = [
   },
   {
     name: 'Hit and Run',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       'Attack Skills deal 20% increased Damage while Dual Wielding',
       "4% chance to Dodge Attack or Spell Hits if you've Hit an Enemy Recently",
@@ -751,7 +751,7 @@ const notables = [
   },
   {
     name: 'Insatiable Killer',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       'Attack Skills deal 20% increased Damage while Dual Wielding',
       '5% increased Attack Speed while Dual Wielding',
@@ -760,7 +760,7 @@ const notables = [
   },
   {
     name: 'Mage Bane',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       '+5% Chance to Block Spell Damage while Dual Wielding',
       'Attack Skills deal 20% increased Damage while Dual Wielding',
@@ -769,7 +769,7 @@ const notables = [
   },
   {
     name: 'Martial Momentum',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       '8% increased Attack Speed while Dual Wielding',
       '16% increased Accuracy Rating while Dual Wielding',
@@ -778,7 +778,7 @@ const notables = [
   },
   {
     name: 'Deadly Repartee',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       '+5% Chance to Block Attack Damage while Dual Wielding',
       'Attack Skills deal 25% increased Damage while Dual Wielding',
@@ -787,7 +787,7 @@ const notables = [
   },
   {
     name: 'Quick and Deadly',
-    image: '/assets/DualWieldingDamage.png',
+    image: 'assets/DualWieldingDamage.png',
     stats: [
       '60% increased Main Hand Attack Damage while wielding two different Weapon Types',
       '30% increased Off Hand Attack Speed while wielding two different Weapon Types',
@@ -795,7 +795,7 @@ const notables = [
   },
   {
     name: 'Smite the Weak',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '40% increased Attack Damage against Maimed Enemies',
       'Attacks have 10% chance to Maim on Hit',
@@ -803,7 +803,7 @@ const notables = [
   },
   {
     name: 'Heavy Hitter',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '30% increased Attack Damage',
       '10% reduced Enemy Stun Threshold',
@@ -813,7 +813,7 @@ const notables = [
   },
   {
     name: 'Martial Prowess',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '20% increased Attack Damage',
       '6% increased Attack Speed',
@@ -823,7 +823,7 @@ const notables = [
   },
   {
     name: 'Calamitous',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '10% chance to Freeze, Shock and Ignite',
       '30% increased Elemental Damage with Attack Skills',
@@ -832,7 +832,7 @@ const notables = [
   },
   {
     name: 'Devastator',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '20% increased Attack Damage',
       '20% increased Damage with Ailments from Attack Skills',
@@ -841,7 +841,7 @@ const notables = [
   },
   {
     name: 'Fuel the Fight',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '8% increased Attack Speed',
       '0.4% of Attack Damage Leeched as Mana',
@@ -850,7 +850,7 @@ const notables = [
   },
   {
     name: 'Drive the Destruction',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '0.8% of Attack Damage Leeched as Life',
       '20% increased Maximum total Recovery per second from Life Leech',
@@ -859,7 +859,7 @@ const notables = [
   },
   {
     name: 'Feed the Fury',
-    image: '/assets/IncreasedAttackDamageNotable.png',
+    image: 'assets/IncreasedAttackDamageNotable.png',
     stats: [
       '0.4% of Attack Damage Leeched as Life',
       '30% increased Damage while Leeching',
@@ -868,14 +868,14 @@ const notables = [
   },
   {
     name: 'Seal Mender',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       'Skills Supported by Unleash have 30% increased Seal gain frequency',
     ],
   },
   {
     name: 'Conjured Wall',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '25% increased Spell Damage',
       "+6% Chance to Block Spell Damage if you've Cast a Spell Recently",
@@ -883,7 +883,7 @@ const notables = [
   },
   {
     name: 'Arcane Heroism',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '30% increased Effect of Arcane Surge on you',
       '10% chance to gain Arcane Surge when you Hit a Unique enemy',
@@ -891,7 +891,7 @@ const notables = [
   },
   {
     name: 'Practiced Caster',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '20% increased Spell Damage',
       '5% increased Cast Speed',
@@ -900,7 +900,7 @@ const notables = [
   },
   {
     name: 'Burden Projection',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '30% increased Spell Damage',
       '8% chance to Knock Enemies Back on Hit with Spell Damage',
@@ -908,7 +908,7 @@ const notables = [
   },
   {
     name: 'Thaumophage',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '0.6% of Spell Damage Leeched as Energy Shield',
       '20% increased Maximum total Recovery per second from Energy Shield Leech',
@@ -917,7 +917,7 @@ const notables = [
   },
   {
     name: 'Essence Rush',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '40% increased Damage while Leeching Energy Shield',
       '0.3% of Spell Damage Leeched as Energy Shield',
@@ -926,7 +926,7 @@ const notables = [
   },
   {
     name: 'Sap Psyche',
-    image: '/assets/IncreasedSpellDamageNotable.png',
+    image: 'assets/IncreasedSpellDamageNotable.png',
     stats: [
       '20% increased Spell Damage',
       '30% increased Mana Regeneration Rate',
@@ -935,7 +935,7 @@ const notables = [
   },
   {
     name: 'Sadist',
-    image: '/assets/IncreasedElementalDamage.png',
+    image: 'assets/IncreasedElementalDamage.png',
     stats: [
       "15% increased Elemental Damage if you've Chilled an Enemy Recently",
       "20% increased Elemental Damage if you've Ignited an Enemy Recently",
@@ -944,7 +944,7 @@ const notables = [
   },
   {
     name: 'Corrosive Elements',
-    image: '/assets/IncreasedElementalDamage.png',
+    image: 'assets/IncreasedElementalDamage.png',
     stats: [
       '15% increased Elemental Damage',
       'Cold Skills have a 25% chance to apply Cold Exposure on Hit',
@@ -954,7 +954,7 @@ const notables = [
   },
   {
     name: "Doryani's Lesson",
-    image: '/assets/IncreasedElementalDamage.png',
+    image: 'assets/IncreasedElementalDamage.png',
     stats: [
       '0.2% of Elemental Damage Leeched as Life',
       '25% increased Elemental Damage',
@@ -962,7 +962,7 @@ const notables = [
   },
   {
     name: 'Disorienting Display',
-    image: '/assets/IncreasedElementalDamage.png',
+    image: 'assets/IncreasedElementalDamage.png',
     stats: [
       '25% increased Elemental Damage',
       '10% chance to Blind nearby Enemies when you use an Elemental Skill',
@@ -970,7 +970,7 @@ const notables = [
   },
   {
     name: 'Prismatic Heart',
-    image: '/assets/IncreasedElementalDamage.png',
+    image: 'assets/IncreasedElementalDamage.png',
     stats: [
       '+10% to all Elemental Resistances',
       '30% increased Elemental Damage',
@@ -978,17 +978,17 @@ const notables = [
   },
   {
     name: 'Widespread Destruction',
-    image: '/assets/IncreasedElementalDamage.png',
+    image: 'assets/IncreasedElementalDamage.png',
     stats: ['10% increased Area of Effect', '20% increased Elemental Damage'],
   },
   {
     name: 'Master of Fire',
-    image: '/assets/IncreasedFireDamage.png',
+    image: 'assets/IncreasedFireDamage.png',
     stats: ['Nearby Enemies have Fire Exposure'],
   },
   {
     name: 'Smoking Remains',
-    image: '/assets/IncreasedFireDamage.png',
+    image: 'assets/IncreasedFireDamage.png',
     stats: [
       '35% increased Fire Damage',
       '10% chance to create a Smoke Cloud on Kill',
@@ -996,7 +996,7 @@ const notables = [
   },
   {
     name: 'Cremator',
-    image: '/assets/IncreasedFireDamage.png',
+    image: 'assets/IncreasedFireDamage.png',
     stats: [
       '30% increased Fire Damage',
       'Ignited Enemies you hit are destroyed on Kill',
@@ -1004,14 +1004,14 @@ const notables = [
   },
   {
     name: 'Snowstorm',
-    image: '/assets/IncreasedLightningDamage.png',
+    image: 'assets/IncreasedLightningDamage.png',
     stats: [
       'Gain 10% of Lightning Damage as Extra Cold Damage against Chilled Enemies',
     ],
   },
   {
     name: 'Storm Drinker',
-    image: '/assets/IncreasedLightningDamage.png',
+    image: 'assets/IncreasedLightningDamage.png',
     stats: [
       'Damage Penetrates 8% Lightning Resistance',
       '0.5% of Lightning Damage Leeched as Energy Shield',
@@ -1019,7 +1019,7 @@ const notables = [
   },
   {
     name: 'Paralysis',
-    image: '/assets/IncreasedLightningDamage.png',
+    image: 'assets/IncreasedLightningDamage.png',
     stats: [
       '30% increased Lightning Damage',
       '10% chance to double Stun Duration',
@@ -1028,17 +1028,17 @@ const notables = [
   },
   {
     name: 'Supercharge',
-    image: '/assets/IncreasedLightningDamage.png',
+    image: 'assets/IncreasedLightningDamage.png',
     stats: ['Lightning Damage with Non-Critical Strikes is Lucky'],
   },
   {
     name: 'Blanketed Snow',
-    image: '/assets/IncreasedColdDamage.png',
+    image: 'assets/IncreasedColdDamage.png',
     stats: ['Damage Penetrates 10% Cold Resistance against Chilled Enemies'],
   },
   {
     name: 'Cold to the Core',
-    image: '/assets/IncreasedColdDamage.png',
+    image: 'assets/IncreasedColdDamage.png',
     stats: [
       '1% increased Cold Damage per 25 Dexterity',
       '1% increased Cold Damage per 25 Intelligence',
@@ -1047,12 +1047,12 @@ const notables = [
   },
   {
     name: 'Cold-Blooded Killer',
-    image: '/assets/IncreasedColdDamage.png',
+    image: 'assets/IncreasedColdDamage.png',
     stats: ['20% increased Cold Damage', 'Recover 2% of Life on Kill'],
   },
   {
     name: 'Touch of Cruelty',
-    image: '/assets/IncreasedChaosDamage.png',
+    image: 'assets/IncreasedChaosDamage.png',
     stats: [
       'Chaos Skills have 10% chance to Hinder Enemies on Hit, with 30% reduced Movement Speed',
       'Enemies Hindered by you take 10% increased Chaos Damage',
@@ -1060,7 +1060,7 @@ const notables = [
   },
   {
     name: 'Unwaveringly Evil',
-    image: '/assets/IncreasedChaosDamage.png',
+    image: 'assets/IncreasedChaosDamage.png',
     stats: [
       '30% increased Chaos Damage',
       'Chaos Skills ignore interruption from Stuns',
@@ -1068,21 +1068,21 @@ const notables = [
   },
   {
     name: 'Unspeakable Gifts',
-    image: '/assets/IncreasedChaosDamage.png',
+    image: 'assets/IncreasedChaosDamage.png',
     stats: [
       'Enemies you Kill have a 10% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage',
     ],
   },
   {
     name: 'Dark Ideation',
-    image: '/assets/IncreasedChaosDamage.png',
+    image: 'assets/IncreasedChaosDamage.png',
     stats: [
       '2% increased Chaos Damage per 100 maximum Mana, up to a maximum of 80%',
     ],
   },
   {
     name: 'Unholy Grace',
-    image: '/assets/IncreasedChaosDamage.png',
+    image: 'assets/IncreasedChaosDamage.png',
     stats: [
       '30% increased Chaos Damage',
       '10% increased Attack and Cast Speed',
@@ -1090,7 +1090,7 @@ const notables = [
   },
   {
     name: 'Wicked Pall',
-    image: '/assets/IncreasedChaosDamage.png',
+    image: 'assets/IncreasedChaosDamage.png',
     stats: [
       '35% increased Chaos Damage',
       '20% increased Skill Effect Duration',
@@ -1098,7 +1098,7 @@ const notables = [
   },
   {
     name: 'Renewal',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: [
       'Minions Regenerate 1% of Life per second',
       'Minions have 10% chance to deal Double Damage while they are on Full Life',
@@ -1106,7 +1106,7 @@ const notables = [
   },
   {
     name: 'Raze and Pillage',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: [
       'Minions have 20% chance to Ignite',
       'Minions deal 20% increased Damage against Ignited Enemies',
@@ -1115,12 +1115,12 @@ const notables = [
   },
   {
     name: 'Rotten Claws',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: ['Minions have a 20% chance to Impale on Hit with Attacks'],
   },
   {
     name: 'Call to the Slaughter',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: [
       'Minions deal 15% increased Damage',
       'Minions created Recently have 10% increased Attack and Cast Speed',
@@ -1129,7 +1129,7 @@ const notables = [
   },
   {
     name: 'Skeletal Atrophy',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: [
       'Summoned Skeletons have 10% chance to Wither Enemies for 2 seconds on Hit',
       'Summoned Skeletons have 30% of Physical Damage Converted to Chaos Damage',
@@ -1137,7 +1137,7 @@ const notables = [
   },
   {
     name: 'Hulking Corpses',
-    image: '/assets/IncreaseMinionLifeNotable.png',
+    image: 'assets/IncreaseMinionLifeNotable.png',
     stats: [
       'Minions have 20% increased maximum Life',
       '20% increased Raised Zombie Size',
@@ -1146,7 +1146,7 @@ const notables = [
   },
   {
     name: 'Vicious Bite',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: [
       'Minions have 50% increased Critical Strike Chance',
       'Raised Spectres, Raised Zombies, and Summoned Skeletons have +50% to Critical Strike Multiplier',
@@ -1154,7 +1154,7 @@ const notables = [
   },
   {
     name: 'Primordial Bond',
-    image: '/assets/IncreasedMinionDamageNotable.png',
+    image: 'assets/IncreasedMinionDamageNotable.png',
     stats: [
       '10% increased Damage per Summoned Golem',
       '40% increased Effect of Buffs granted by your Golems',
@@ -1163,19 +1163,19 @@ const notables = [
   },
   {
     name: 'Blowback',
-    image: '/assets/FireDamageOverTimeNotable.png',
+    image: 'assets/FireDamageOverTimeNotable.png',
     stats: ['Ignites you inflict deal Damage 15% faster'],
   },
   {
     name: 'Fan the Flames',
-    image: '/assets/FireDamageOverTimeNotable.png',
+    image: 'assets/FireDamageOverTimeNotable.png',
     stats: [
       'Ignites you inflict spread to other Enemies within a Radius of 15',
     ],
   },
   {
     name: 'Cooked Alive',
-    image: '/assets/FireDamageOverTimeNotable.png',
+    image: 'assets/FireDamageOverTimeNotable.png',
     stats: [
       '15% chance to Ignite',
       'Enemies Ignited by you have -10% to Fire Resistance',
@@ -1183,7 +1183,7 @@ const notables = [
   },
   {
     name: 'Burning Bright',
-    image: '/assets/FireDamageOverTimeNotable.png',
+    image: 'assets/FireDamageOverTimeNotable.png',
     stats: [
       '+8% to Fire Damage over Time Multiplier',
       '20% increased Fire Damage',
@@ -1192,7 +1192,7 @@ const notables = [
   },
   {
     name: 'Wrapped in Flame',
-    image: '/assets/FireDamageOverTimeNotable.png',
+    image: 'assets/FireDamageOverTimeNotable.png',
     stats: [
       '20% increased Burning Damage',
       '+15% to Fire Damage over Time Multiplier while Burning',
@@ -1201,7 +1201,7 @@ const notables = [
   },
   {
     name: 'Vivid Hues',
-    image: '/assets/PhysicalDamageOverTimeNotable.png',
+    image: 'assets/PhysicalDamageOverTimeNotable.png',
     stats: [
       '+12% to Damage over Time Multiplier for Bleeding',
       '2% of Attack Damage Leeched as Life against Bleeding Enemies',
@@ -1210,7 +1210,7 @@ const notables = [
   },
   {
     name: 'Rend',
-    image: '/assets/PhysicalDamageOverTimeNotable.png',
+    image: 'assets/PhysicalDamageOverTimeNotable.png',
     stats: [
       '+12% to Damage over Time Multiplier for Bleeding',
       '30% increased Bleeding Duration',
@@ -1218,7 +1218,7 @@ const notables = [
   },
   {
     name: 'Disorienting Wounds',
-    image: '/assets/PhysicalDamageOverTimeNotable.png',
+    image: 'assets/PhysicalDamageOverTimeNotable.png',
     stats: [
       '25% increased Damage with Bleeding',
       '25% chance to Blind with Hits against Bleeding Enemies',
@@ -1226,12 +1226,12 @@ const notables = [
   },
   {
     name: 'Compound Injury',
-    image: '/assets/PhysicalDamageOverTimeNotable.png',
+    image: 'assets/PhysicalDamageOverTimeNotable.png',
     stats: ['50% increased Damage with Bleeding you inflict on Maimed Enemies'],
   },
   {
     name: 'Septic Spells',
-    image: '/assets/ChaosDamageOverTimeNotable.png',
+    image: 'assets/ChaosDamageOverTimeNotable.png',
     stats: [
       '8% increased Cast Speed',
       'Spell Skills have +10% to Damage over Time Multiplier for Poison',
@@ -1240,7 +1240,7 @@ const notables = [
   },
   {
     name: 'Low Tolerance',
-    image: '/assets/ChaosDamageOverTimeNotable.png',
+    image: 'assets/ChaosDamageOverTimeNotable.png',
     stats: [
       '+8% to Damage over Time Multiplier for Poison',
       'Poisons you inflict on non-Poisoned Enemies deal 300% increased Damage',
@@ -1248,7 +1248,7 @@ const notables = [
   },
   {
     name: 'Steady Torment',
-    image: '/assets/ChaosDamageOverTimeNotable.png',
+    image: 'assets/ChaosDamageOverTimeNotable.png',
     stats: [
       '20% increased Poison Duration',
       '20% increased Bleeding Duration',
@@ -1258,7 +1258,7 @@ const notables = [
   },
   {
     name: 'Eternal Suffering',
-    image: '/assets/ChaosDamageOverTimeNotable.png',
+    image: 'assets/ChaosDamageOverTimeNotable.png',
     stats: [
       '+5% to Chaos Damage over Time Multiplier',
       'Chaos Skills have 30% increased Skill Effect Duration',
@@ -1266,7 +1266,7 @@ const notables = [
   },
   {
     name: 'Eldritch Inspiration',
-    image: '/assets/ChaosDamageOverTimeNotable.png',
+    image: 'assets/ChaosDamageOverTimeNotable.png',
     stats: [
       '+8% to Chaos Damage over Time Multiplier',
       '16% increased maximum Mana',
@@ -1275,7 +1275,7 @@ const notables = [
   },
   {
     name: 'Wasting Affliction',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '20% increased Damage with Ailments',
       'Damaging Ailments deal damage 10% faster',
@@ -1283,7 +1283,7 @@ const notables = [
   },
   {
     name: 'Haemorrhage',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '+18% to Damage over Time Multiplier for Ailments from Critical Strikes',
       '40% increased Critical Strike Chance',
@@ -1291,7 +1291,7 @@ const notables = [
   },
   {
     name: 'Flow of Life',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '24% increased Damage over Time',
       '4% increased maximum Life',
@@ -1300,7 +1300,7 @@ const notables = [
   },
   {
     name: 'Exposure Therapy',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '+10% to Damage over Time Multiplier',
       '+30% Chaos Resistance against Damage Over Time',
@@ -1308,7 +1308,7 @@ const notables = [
   },
   {
     name: 'Brush with Death',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '+10% to Damage over Time Multiplier',
       'Recover 1% of Life on Kill',
@@ -1317,7 +1317,7 @@ const notables = [
   },
   {
     name: 'Vile Reinvigoration',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '24% increased Damage over Time',
       '6% increased maximum Energy Shield',
@@ -1326,7 +1326,7 @@ const notables = [
   },
   {
     name: 'Circling Oblivion',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '20% increased Damage over Time',
       '20% increased Duration of Ailments on Enemies',
@@ -1335,7 +1335,7 @@ const notables = [
   },
   {
     name: 'Brewed for Potency',
-    image: '/assets/DamageOverTimeNotable.png',
+    image: 'assets/DamageOverTimeNotable.png',
     stats: [
       '24% increased Damage over Time',
       '10% increased Flask Charges gained',
@@ -1344,7 +1344,7 @@ const notables = [
   },
   {
     name: 'Astonishing Affliction',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '20% increased Duration of Elemental Ailments on Enemies',
       '20% increased Damage with Hits and Ailments against Enemies affected by Ailments',
@@ -1353,7 +1353,7 @@ const notables = [
   },
   {
     name: 'Cold Conduction',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       'Enemies Chilled by your Hits are Shocked',
       'Enemies Shocked by your Hits are Chilled',
@@ -1361,7 +1361,7 @@ const notables = [
   },
   {
     name: 'Inspired Oppression',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '20% increased Elemental Damage',
       '30% increased Mana Regeneration Rate if you have Frozen an Enemy Recently',
@@ -1371,12 +1371,12 @@ const notables = [
   },
   {
     name: 'Chilling Presence',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: ['Nearby Enemies are Chilled'],
   },
   {
     name: 'Deep Chill',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '+10% to Cold Damage over Time Multiplier',
       '30% increased Effect of Chill',
@@ -1384,7 +1384,7 @@ const notables = [
   },
   {
     name: 'Blast-Freeze',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '20% increased Cold Damage',
       'Freezes you inflict spread to other Enemies within a Radius of 12',
@@ -1392,7 +1392,7 @@ const notables = [
   },
   {
     name: 'Thunderstruck',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '20% increased Lightning Damage',
       'Your Critical Strikes Knock Back Shocked Enemies',
@@ -1401,7 +1401,7 @@ const notables = [
   },
   {
     name: 'Stormrider',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '10% chance to gain a Power Charge when you Shock a Chilled Enemy',
       '25% increased Cold Damage with Hits against Shocked Enemies',
@@ -1410,7 +1410,7 @@ const notables = [
   },
   {
     name: 'Overshock',
-    image: '/assets/IncreasedNonDamageAilmentNotable.png',
+    image: 'assets/IncreasedNonDamageAilmentNotable.png',
     stats: [
       '30% increased Lightning Damage',
       'Your Shocks can increase Damage taken by up to a maximum of 60%',
@@ -1419,7 +1419,7 @@ const notables = [
   },
   {
     name: 'Evil Eye',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       'Enemies you Curse take 5% increased Damage',
       '5% chance to Dodge Attack Hits from Cursed Enemies',
@@ -1427,7 +1427,7 @@ const notables = [
   },
   {
     name: 'Whispers of Death',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       '5% increased Effect of your Curses',
       "20% increased Damage if you've Killed a Cursed Enemy Recently",
@@ -1435,7 +1435,7 @@ const notables = [
   },
   {
     name: 'Forbidden Words',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       '25% increased Area of Effect of Curse Skills',
       '5% increased Effect of your Curses',
@@ -1444,7 +1444,7 @@ const notables = [
   },
   {
     name: 'Dark Discourse',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       '10% increased Effect of your Curses',
       'Enemies you Curse are Hindered, with 15% reduced Movement Speed',
@@ -1453,7 +1453,7 @@ const notables = [
   },
   {
     name: 'Victim Maker',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       'Curse Skills have 50% increased Skill Effect Duration',
       '25% increased Damage with Hits and Ailments against Cursed Enemies',
@@ -1461,7 +1461,7 @@ const notables = [
   },
   {
     name: 'Master of Fear',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       'Enemies you Curse are Intimidated',
       'Enemies you Curse are Unnerved',
@@ -1469,7 +1469,7 @@ const notables = [
   },
   {
     name: 'Wish for Death',
-    image: '/assets/CurseEffectNotable.png',
+    image: 'assets/CurseEffectNotable.png',
     stats: [
       'You have Culling Strike against Cursed Enemies',
       'Curse Skills have 20% increased Skill Effect Duration',
@@ -1477,7 +1477,7 @@ const notables = [
   },
   {
     name: 'Heraldry',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       '20% increased Effect of Herald Buffs on you',
       '10% reduced Mana Reservation of Herald Skills',
@@ -1485,19 +1485,19 @@ const notables = [
   },
   {
     name: 'Endbringer',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: ['25% increased Damage for each Herald affecting you'],
   },
   {
     name: 'Cult-Leader',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       'Minions deal 35% increased Damage while you are affected by a Herald',
     ],
   },
   {
     name: 'Empowered Envoy',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       'Herald Skills deal 40% increased Damage',
       '20% increased Effect of Herald Buffs on you',
@@ -1505,7 +1505,7 @@ const notables = [
   },
   {
     name: 'Dark Messenger',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       'Herald Skills have 25% increased Area of Effect',
       'Herald Skills deal 20% increased Damage',
@@ -1513,7 +1513,7 @@ const notables = [
   },
   {
     name: 'Agent of Destruction',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       '10% chance to Freeze, Shock and Ignite while affected by a Herald',
       '25% increased Elemental Damage while affected by a Herald',
@@ -1521,7 +1521,7 @@ const notables = [
   },
   {
     name: 'Lasting Impression',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       '30% increased Damage over Time while affected by a Herald',
       'Herald Skills deal 50% increased Damage over Time',
@@ -1529,7 +1529,7 @@ const notables = [
   },
   {
     name: 'Self-Fulfilling Prophecy',
-    image: '/assets/DmgHeraldSkillsNotable.png',
+    image: 'assets/DmgHeraldSkillsNotable.png',
     stats: [
       '+1% to Critical Strike Chance of Herald Skills',
       '+25% to Critical Strike Multiplier if you dealt a Critical Strike with a Herald Skill Recently',
@@ -1537,7 +1537,7 @@ const notables = [
   },
   {
     name: 'Invigorating Portents',
-    image: '/assets/MinionDmgHeraldSkillsNotable.png',
+    image: 'assets/MinionDmgHeraldSkillsNotable.png',
     stats: [
       'Minions deal 20% increased Damage while you are affected by a Herald',
       'Minions have 10% increased Movement Speed for each Herald affecting you',
@@ -1545,7 +1545,7 @@ const notables = [
   },
   {
     name: 'Pure Agony',
-    image: '/assets/MinionDmgHeraldSkillsNotable.png',
+    image: 'assets/MinionDmgHeraldSkillsNotable.png',
     stats: [
       '+1 to maximum number of Sentinels of Purity',
       '+5 to Maximum Virulence',
@@ -1554,7 +1554,7 @@ const notables = [
   },
   {
     name: 'Disciples',
-    image: '/assets/MinionDmgHeraldSkillsNotable.png',
+    image: 'assets/MinionDmgHeraldSkillsNotable.png',
     stats: [
       '1% additional Physical Damage Reduction per Summoned Sentinel of Purity',
       'You lose Virulence 30% slower',
@@ -1563,7 +1563,7 @@ const notables = [
   },
   {
     name: 'Dread March',
-    image: '/assets/IncreaseMinionLifeNotable.png',
+    image: 'assets/IncreaseMinionLifeNotable.png',
     stats: [
       'Minions have 10% increased maximum Life',
       'Minions have 10% increased Movement Speed',
@@ -1573,7 +1573,7 @@ const notables = [
   },
   {
     name: 'Blessed Rebirth',
-    image: '/assets/IncreaseMinionLifeNotable.png',
+    image: 'assets/IncreaseMinionLifeNotable.png',
     stats: [
       'Minions have 20% increased maximum Life',
       'Minions created Recently cannot be Damaged',
@@ -1581,7 +1581,7 @@ const notables = [
   },
   {
     name: 'Life from Death',
-    image: '/assets/IncreaseMinionLifeNotable.png',
+    image: 'assets/IncreaseMinionLifeNotable.png',
     stats: [
       'Minions have 15% increased maximum Life',
       'Regenerate 2% of Life per second if a Minion has Died Recently',
@@ -1590,7 +1590,7 @@ const notables = [
   },
   {
     name: 'Feasting Fiends',
-    image: '/assets/IncreaseMinionLifeNotable.png',
+    image: 'assets/IncreaseMinionLifeNotable.png',
     stats: [
       'Minions have 10% increased maximum Life',
       'Minions deal 10% increased Damage',
@@ -1599,7 +1599,7 @@ const notables = [
   },
   {
     name: 'Bodyguards',
-    image: '/assets/IncreaseMinionLifeNotable.png',
+    image: 'assets/IncreaseMinionLifeNotable.png',
     stats: [
       'Minions have 10% increased maximum Life',
       'Minions have 10% chance to Knock Enemies Back on Hit with Attacks',
@@ -1607,12 +1607,12 @@ const notables = [
   },
   {
     name: 'Follow-Through',
-    image: '/assets/ProjectileDmgNotable.png',
+    image: 'assets/ProjectileDmgNotable.png',
     stats: ['Projectiles deal 15% increased Damage for each remaining Chain'],
   },
   {
     name: 'Streamlined',
-    image: '/assets/ProjectileDmgNotable.png',
+    image: 'assets/ProjectileDmgNotable.png',
     stats: [
       '30% increased Projectile Speed',
       '20% increased Projectile Damage',
@@ -1620,7 +1620,7 @@ const notables = [
   },
   {
     name: 'Shrieking Bolts',
-    image: '/assets/ProjectileDmgNotable.png',
+    image: 'assets/ProjectileDmgNotable.png',
     stats: [
       '35% increased Projectile Damage',
       '10% chance to Taunt Enemies on Projectile Hit',
@@ -1628,7 +1628,7 @@ const notables = [
   },
   {
     name: 'Eye to Eye',
-    image: '/assets/ProjectileDmgNotable.png',
+    image: 'assets/ProjectileDmgNotable.png',
     stats: [
       '25% increased Projectile Damage',
       '35% increased Projectile Damage with Hits against Nearby Enemies',
@@ -1636,7 +1636,7 @@ const notables = [
   },
   {
     name: 'Repeater',
-    image: '/assets/ProjectileDmgNotable.png',
+    image: 'assets/ProjectileDmgNotable.png',
     stats: [
       '30% increased Projectile Damage',
       '8% increased Attack and Cast Speed',
@@ -1644,7 +1644,7 @@ const notables = [
   },
   {
     name: 'Aerodynamics',
-    image: '/assets/ProjectileDmgNotable.png',
+    image: 'assets/ProjectileDmgNotable.png',
     stats: [
       'Projectiles Pierce an additional Target',
       '20% increased Projectile Speed',
@@ -1653,7 +1653,7 @@ const notables = [
   },
   {
     name: 'Chip Away',
-    image: '/assets/BrandDmgNotable.png',
+    image: 'assets/BrandDmgNotable.png',
     stats: [
       "25% increased Brand Activation Frequency if you haven't used a Brand Skill Recently",
       '20% increased Brand Attachment range',
@@ -1661,7 +1661,7 @@ const notables = [
   },
   {
     name: 'Seeker Runes',
-    image: '/assets/BrandDmgNotable.png',
+    image: 'assets/BrandDmgNotable.png',
     stats: [
       '25% increased Damage with Brand Skills',
       'Unattached Brands gain 20% increased Brand Attachment Range per second',
@@ -1669,7 +1669,7 @@ const notables = [
   },
   {
     name: 'Remarkable',
-    image: '/assets/BrandDmgNotable.png',
+    image: 'assets/BrandDmgNotable.png',
     stats: [
       'You can Cast an additional Brand',
       '12% increased Cast Speed with Brand Skills',
@@ -1677,7 +1677,7 @@ const notables = [
   },
   {
     name: 'Brand Loyalty',
-    image: '/assets/BrandDmgNotable.png',
+    image: 'assets/BrandDmgNotable.png',
     stats: [
       'Enemies take 5% increased Damage for each of your Brands Attached to them',
       '20% increased Brand Attachment range',
@@ -1685,7 +1685,7 @@ const notables = [
   },
   {
     name: 'Holy Conquest',
-    image: '/assets/BrandDmgNotable.png',
+    image: 'assets/BrandDmgNotable.png',
     stats: [
       '5% increased Movement Speed',
       '20% increased Damage with Brand Skills',
@@ -1694,7 +1694,7 @@ const notables = [
   },
   {
     name: 'Grand Design',
-    image: '/assets/BrandDmgNotable.png',
+    image: 'assets/BrandDmgNotable.png',
     stats: [
       'You can Cast an additional Brand',
       'Brand Skills have 20% increased Duration',
@@ -1704,7 +1704,7 @@ const notables = [
   },
   {
     name: 'Set and Forget',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: [
       '25% increased Trap Damage',
       '12% increased Area of Effect',
@@ -1714,7 +1714,7 @@ const notables = [
   },
   {
     name: 'Expert Sabotage',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: [
       '30% increased Mine Damage',
       'Can have up to 2 additional Remote Mines placed at a time',
@@ -1723,7 +1723,7 @@ const notables = [
   },
   {
     name: 'Guerilla Tactics',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: [
       '20% increased Trap Damage',
       '20% increased Mine Damage',
@@ -1734,12 +1734,12 @@ const notables = [
   },
   {
     name: 'Expendability',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: ['10% chance to throw up to 1 additional Trap or Mine'],
   },
   {
     name: 'Arcane Pyrotechnics',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: [
       '20% increased Trap Damage',
       '20% increased Mine Damage',
@@ -1749,7 +1749,7 @@ const notables = [
   },
   {
     name: 'Surprise Sabotage',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: [
       '+15% to Critical Strike Multiplier with Traps',
       '+15% to Critical Strike Multiplier with Mines',
@@ -1759,7 +1759,7 @@ const notables = [
   },
   {
     name: 'Careful Handling',
-    image: '/assets/TrapAndMineDmgNotable.png',
+    image: 'assets/TrapAndMineDmgNotable.png',
     stats: [
       '15% increased Trap Damage',
       '15% increased Mine Damage',
@@ -1769,7 +1769,7 @@ const notables = [
   },
   {
     name: 'Peak Vigour',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: [
       '8% increased maximum Life',
       '30% increased Life Recovery from Flasks',
@@ -1777,12 +1777,12 @@ const notables = [
   },
   {
     name: 'Fettle',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: ['+20 to maximum Life', '10% increased maximum Life'],
   },
   {
     name: 'Feast of Flesh',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: [
       '8% increased maximum Life',
       '0.4% of Attack Damage Leeched as Life',
@@ -1791,12 +1791,12 @@ const notables = [
   },
   {
     name: 'Sublime Sensation',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: ['10% increased maximum Energy Shield', '8% increased maximum Life'],
   },
   {
     name: 'Surging Vitality',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: [
       '8% increased maximum Life',
       'Regenerate 0.5% of Life per second',
@@ -1805,7 +1805,7 @@ const notables = [
   },
   {
     name: 'Peace Amidst Chaos',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: [
       '8% increased maximum Life',
       '2% additional Physical Damage Reduction while stationary',
@@ -1814,7 +1814,7 @@ const notables = [
   },
   {
     name: 'Adrenaline',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: [
       '6% increased maximum Life',
       '15% increased Maximum total Recovery per second from Life Leech',
@@ -1823,12 +1823,12 @@ const notables = [
   },
   {
     name: 'Wall of Muscle',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: ['6% increased maximum Life', '5% increased Strength'],
   },
   {
     name: 'Mindfulness',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '15% increased maximum Mana',
       '80% increased Mana Regeneration Rate while stationary',
@@ -1836,7 +1836,7 @@ const notables = [
   },
   {
     name: 'Liquid Inspiration',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '15% increased maximum Mana',
       '30% increased Mana Recovery from Flasks',
@@ -1845,12 +1845,12 @@ const notables = [
   },
   {
     name: 'Openness',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: ['+30 to maximum Mana', '20% increased maximum Mana'],
   },
   {
     name: 'Daring Ideas',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '18% increased maximum Mana',
       '0.4% of Attack Damage Leeched as Mana',
@@ -1858,7 +1858,7 @@ const notables = [
   },
   {
     name: 'Clarity of Purpose',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '15% increased maximum Mana',
       '30% increased Mana Regeneration Rate',
@@ -1866,7 +1866,7 @@ const notables = [
   },
   {
     name: 'Scintillating Idea',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '20% increased maximum Mana',
       'Damage Penetrates 5% Lightning Resistance',
@@ -1874,17 +1874,17 @@ const notables = [
   },
   {
     name: 'Holistic Health',
-    image: '/assets/IncreasedMaximumLifeNotable.png',
+    image: 'assets/IncreasedMaximumLifeNotable.png',
     stats: ['8% increased maximum Life', '10% increased maximum Mana'],
   },
   {
     name: 'Genius',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: ['8% increased maximum Mana', '5% increased Intelligence'],
   },
   {
     name: 'Improvisor',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '6% increased Attack Speed',
       '10% increased maximum Mana',
@@ -1893,7 +1893,7 @@ const notables = [
   },
   {
     name: 'Stubborn Student',
-    image: '/assets/MaxManaNotable.png',
+    image: 'assets/MaxManaNotable.png',
     stats: [
       '20% increased Armour',
       '15% increased maximum Mana',
@@ -1902,7 +1902,7 @@ const notables = [
   },
   {
     name: 'Savour the Moment',
-    image: '/assets/EnergyShieldNotable.png',
+    image: 'assets/EnergyShieldNotable.png',
     stats: [
       '10% increased maximum Energy Shield',
       'Regenerate 3.00% of Energy Shield per second while stationary',
@@ -1910,17 +1910,17 @@ const notables = [
   },
   {
     name: 'Energy From Naught',
-    image: '/assets/EnergyShieldNotable.png',
+    image: 'assets/EnergyShieldNotable.png',
     stats: ['+100 to maximum Energy Shield'],
   },
   {
     name: 'Will Shaper',
-    image: '/assets/EnergyShieldNotable.png',
+    image: 'assets/EnergyShieldNotable.png',
     stats: ['Gain 5% of Maximum Mana as Extra Maximum Energy Shield'],
   },
   {
     name: 'Spring Back',
-    image: '/assets/EnergyShieldNotable.png',
+    image: 'assets/EnergyShieldNotable.png',
     stats: [
       '6% increased maximum Energy Shield',
       '10% faster start of Energy Shield Recharge',
@@ -1929,7 +1929,7 @@ const notables = [
   },
   {
     name: 'Conservation of Energy',
-    image: '/assets/EnergyShieldNotable.png',
+    image: 'assets/EnergyShieldNotable.png',
     stats: [
       '8% increased maximum Energy Shield',
       '0.3% of Spell Damage Leeched as Energy Shield',
@@ -1938,22 +1938,22 @@ const notables = [
   },
   {
     name: 'Heart of Iron',
-    image: '/assets/ArmourNotable.png',
+    image: 'assets/ArmourNotable.png',
     stats: ['Gain 10% of Maximum Life as Extra Armour'],
   },
   {
     name: 'Prismatic Carapace',
-    image: '/assets/ArmourNotable.png',
+    image: 'assets/ArmourNotable.png',
     stats: ['30% increased Armour', '+1% to all maximum Elemental Resistances'],
   },
   {
     name: 'Militarism',
-    image: '/assets/ArmourNotable.png',
+    image: 'assets/ArmourNotable.png',
     stats: ['30% increased Armour', '8% increased maximum Life'],
   },
   {
     name: 'Second Skin',
-    image: '/assets/ArmourNotable.png',
+    image: 'assets/ArmourNotable.png',
     stats: [
       '3% Chance to Block Spell Damage',
       '30% increased Armour',
@@ -1962,7 +1962,7 @@ const notables = [
   },
   {
     name: 'Dragon Hunter',
-    image: '/assets/ArmourNotable.png',
+    image: 'assets/ArmourNotable.png',
     stats: [
       '30% increased Armour',
       '+20% to Fire Resistance',
@@ -1971,7 +1971,7 @@ const notables = [
   },
   {
     name: 'Enduring Composure',
-    image: '/assets/ArmourNotable.png',
+    image: 'assets/ArmourNotable.png',
     stats: [
       '30% increased Armour',
       "Gain an Endurance Charge every second if you've been Hit Recently",
@@ -1979,7 +1979,7 @@ const notables = [
   },
   {
     name: 'Prismatic Dance',
-    image: '/assets/EvasionNotable.png',
+    image: 'assets/EvasionNotable.png',
     stats: [
       '30% increased Evasion Rating',
       '+1% to all maximum Elemental Resistances',
@@ -1987,12 +1987,12 @@ const notables = [
   },
   {
     name: 'Natural Vigour',
-    image: '/assets/EvasionNotable.png',
+    image: 'assets/EvasionNotable.png',
     stats: ['30% increased Evasion Rating', '8% increased maximum Life'],
   },
   {
     name: 'Untouchable',
-    image: '/assets/EvasionNotable.png',
+    image: 'assets/EvasionNotable.png',
     stats: [
       '30% increased Evasion Rating',
       '3% chance to Dodge Attack Hits',
@@ -2001,7 +2001,7 @@ const notables = [
   },
   {
     name: 'Shifting Shadow',
-    image: '/assets/EvasionNotable.png',
+    image: 'assets/EvasionNotable.png',
     stats: [
       '20% increased Evasion Rating',
       '+20 to Dexterity',
@@ -2010,17 +2010,17 @@ const notables = [
   },
   {
     name: 'Readiness',
-    image: '/assets/EvasionNotable.png',
+    image: 'assets/EvasionNotable.png',
     stats: ["+4% chance to Evade Attack Hits if you haven't been Hit Recently"],
   },
   {
     name: 'Confident Combatant',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: ['1% increased Damage per 1% Chance to Block Attack Damage'],
   },
   {
     name: 'Flexible Sentry',
-    image: '/assets/BlockSpellDmgNotable.png',
+    image: 'assets/BlockSpellDmgNotable.png',
     stats: [
       '3% Chance to Block Spell Damage',
       '25% chance to Avoid Elemental Ailments',
@@ -2029,7 +2029,7 @@ const notables = [
   },
   {
     name: 'Vicious Guard',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '0.4% of Attack Damage Leeched as Life',
       'Regenerate 1.5% of Life per second',
@@ -2038,7 +2038,7 @@ const notables = [
   },
   {
     name: 'Mystical Ward',
-    image: '/assets/BlockSpellDmgNotable.png',
+    image: 'assets/BlockSpellDmgNotable.png',
     stats: [
       '4% Chance to Block Spell Damage',
       '0.3% of Spell Damage Leeched as Energy Shield',
@@ -2047,7 +2047,7 @@ const notables = [
   },
   {
     name: 'Rote Reinforcement',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '+20 to maximum Life',
       '20% chance to gain an Endurance Charge when you Block',
@@ -2056,7 +2056,7 @@ const notables = [
   },
   {
     name: 'Mage Hunter',
-    image: '/assets/BlockSpellDmgNotable.png',
+    image: 'assets/BlockSpellDmgNotable.png',
     stats: [
       '4% Chance to Block Spell Damage',
       '20% increased Spell Damage',
@@ -2065,7 +2065,7 @@ const notables = [
   },
   {
     name: 'Riot Queller',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       '+4% Chance to Block Attack Damage',
       'Enemies Taunted by you take 6% increased Damage',
@@ -2073,7 +2073,7 @@ const notables = [
   },
   {
     name: 'One with the Shield',
-    image: '/assets/BlockAttackDmgNotable.png',
+    image: 'assets/BlockAttackDmgNotable.png',
     stats: [
       'Recover 50 Life when you Block',
       '50% increased Defences from Equipped Shield',
@@ -2082,7 +2082,7 @@ const notables = [
   },
   {
     name: 'Aerialist',
-    image: '/assets/DodgeAtksNotable.png',
+    image: 'assets/DodgeAtksNotable.png',
     stats: [
       '3% chance to Dodge Attack Hits',
       '3% chance to Dodge Spell Hits',
@@ -2091,7 +2091,7 @@ const notables = [
   },
   {
     name: 'Elegant Form',
-    image: '/assets/DodgeAtksNotable.png',
+    image: 'assets/DodgeAtksNotable.png',
     stats: [
       '30% chance to Avoid Elemental Ailments',
       '3% chance to Dodge Attack Hits',
@@ -2100,7 +2100,7 @@ const notables = [
   },
   {
     name: 'Darting Movements',
-    image: '/assets/DodgeAtksNotable.png',
+    image: 'assets/DodgeAtksNotable.png',
     stats: [
       '5% increased Movement Speed',
       '5% chance to Dodge Attack and Spell Hits while moving',
@@ -2108,7 +2108,7 @@ const notables = [
   },
   {
     name: 'No Witnesses',
-    image: '/assets/DodgeAtksNotable.png',
+    image: 'assets/DodgeAtksNotable.png',
     stats: [
       '10% chance to gain Elusive on Kill',
       '25% increased Elusive Effect',
@@ -2116,7 +2116,7 @@ const notables = [
   },
   {
     name: "Molten One's Mark",
-    image: '/assets/FireResistNotable.png',
+    image: 'assets/FireResistNotable.png',
     stats: [
       '+2% to maximum Fire Resistance',
       'Regenerate 1% of Life per second',
@@ -2124,7 +2124,7 @@ const notables = [
   },
   {
     name: 'Fire Attunement',
-    image: '/assets/FireResistNotable.png',
+    image: 'assets/FireResistNotable.png',
     stats: [
       '40% reduced Ignite Duration on you',
       '50% reduced Extra Damage taken from Critical Strikes while Ignited',
@@ -2132,7 +2132,7 @@ const notables = [
   },
   {
     name: 'Pure Might',
-    image: '/assets/FireResistNotable.png',
+    image: 'assets/FireResistNotable.png',
     stats: [
       '40% increased Stun and Block Recovery',
       'Purity of Fire has 30% reduced Mana Reservation',
@@ -2141,7 +2141,7 @@ const notables = [
   },
   {
     name: 'Blacksmith',
-    image: '/assets/FireResistNotable.png',
+    image: 'assets/FireResistNotable.png',
     stats: [
       '25% increased Armour',
       '+20% to Fire Resistance',
@@ -2150,7 +2150,7 @@ const notables = [
   },
   {
     name: 'Non-Flammable',
-    image: '/assets/FireResistNotable.png',
+    image: 'assets/FireResistNotable.png',
     stats: [
       '+20% to Fire Resistance',
       '40% chance to Avoid being Ignited',
@@ -2159,12 +2159,12 @@ const notables = [
   },
   {
     name: 'Winter Prowler',
-    image: '/assets/ColdResistNotable.png',
+    image: 'assets/ColdResistNotable.png',
     stats: ['+2% to maximum Cold Resistance', '6% increased Movement Speed'],
   },
   {
     name: 'Hibernator',
-    image: '/assets/ColdResistNotable.png',
+    image: 'assets/ColdResistNotable.png',
     stats: [
       '40% reduced Freeze Duration on you',
       '15% additional Physical Damage Reduction while Frozen',
@@ -2172,7 +2172,7 @@ const notables = [
   },
   {
     name: 'Pure Guile',
-    image: '/assets/ColdResistNotable.png',
+    image: 'assets/ColdResistNotable.png',
     stats: [
       'Purity of Ice has 30% reduced Mana Reservation',
       '+20 to Dexterity',
@@ -2181,7 +2181,7 @@ const notables = [
   },
   {
     name: 'Alchemist',
-    image: '/assets/ColdResistNotable.png',
+    image: 'assets/ColdResistNotable.png',
     stats: [
       '+20% to Cold Resistance',
       '8% increased Attack and Cast Speed',
@@ -2190,7 +2190,7 @@ const notables = [
   },
   {
     name: 'Antifreeze',
-    image: '/assets/ColdResistNotable.png',
+    image: 'assets/ColdResistNotable.png',
     stats: [
       '+20% to Cold Resistance',
       '40% chance to Avoid being Frozen',
@@ -2199,12 +2199,12 @@ const notables = [
   },
   {
     name: 'Wizardry',
-    image: '/assets/LightningResistNotable.png',
+    image: 'assets/LightningResistNotable.png',
     stats: ['8% increased maximum Mana', '+2% to maximum Lightning Resistance'],
   },
   {
     name: 'Capacitor',
-    image: '/assets/LightningResistNotable.png',
+    image: 'assets/LightningResistNotable.png',
     stats: [
       '12% increased Movement Speed while Shocked',
       '40% reduced Effect of Shock on you',
@@ -2212,7 +2212,7 @@ const notables = [
   },
   {
     name: 'Pure Aptitude',
-    image: '/assets/LightningResistNotable.png',
+    image: 'assets/LightningResistNotable.png',
     stats: [
       'Regenerate 1% of Energy Shield per second',
       'Purity of Lightning has 30% reduced Mana Reservation',
@@ -2221,7 +2221,7 @@ const notables = [
   },
   {
     name: 'Sage',
-    image: '/assets/LightningResistNotable.png',
+    image: 'assets/LightningResistNotable.png',
     stats: [
       '20% increased Mana Regeneration Rate',
       '+20% to Lightning Resistance',
@@ -2230,7 +2230,7 @@ const notables = [
   },
   {
     name: 'Insulated',
-    image: '/assets/LightningResistNotable.png',
+    image: 'assets/LightningResistNotable.png',
     stats: [
       '+20% to Lightning Resistance',
       '40% chance to Avoid being Shocked',
@@ -2239,17 +2239,17 @@ const notables = [
   },
   {
     name: 'Born of Chaos',
-    image: '/assets/ChaosResistNotable.png',
+    image: 'assets/ChaosResistNotable.png',
     stats: ['+3% to maximum Chaos Resistance'],
   },
   {
     name: 'Antivenom',
-    image: '/assets/ChaosResistNotable.png',
+    image: 'assets/ChaosResistNotable.png',
     stats: ['+17% to Chaos Resistance', 'Unaffected by Poison'],
   },
   {
     name: 'Rot-Resistant',
-    image: '/assets/ChaosResistNotable.png',
+    image: 'assets/ChaosResistNotable.png',
     stats: [
       '+13% to Chaos Resistance',
       'Regenerate 1.2% of Life per second',
@@ -2259,7 +2259,7 @@ const notables = [
   },
   {
     name: 'Blessed',
-    image: '/assets/ChaosResistNotable.png',
+    image: 'assets/ChaosResistNotable.png',
     stats: [
       '6% increased maximum Life',
       '10% increased maximum Mana',
@@ -2268,7 +2268,7 @@ const notables = [
   },
   {
     name: 'Student of Decay',
-    image: '/assets/ChaosResistNotable.png',
+    image: 'assets/ChaosResistNotable.png',
     stats: ['25% increased Damage over Time', '+13% to Chaos Resistance'],
   },
 ]
