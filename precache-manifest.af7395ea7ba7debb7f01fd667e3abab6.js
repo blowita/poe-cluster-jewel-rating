@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e44ecd9b8dac688ea4a07cfd6bda5f47",
+    "revision": "e903f520ab36bdc5f363bcf5f6d680d7",
     "url": "/poe-cluster-jewel-rating/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poe-cluster-jewel-rating/static/js/2.57c48b7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e59dc6ed3a556a54e306",
-    "url": "/poe-cluster-jewel-rating/static/js/main.7b0a0f96.chunk.js"
+    "revision": "e801c4793b88d60e5be1",
+    "url": "/poe-cluster-jewel-rating/static/js/main.0945ef94.chunk.js"
   },
   {
     "revision": "2db00b426c3ec06b0120",

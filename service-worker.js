@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/poe-cluster-jewel-rating/precache-manifest.43f566b02d3f7a44e855bea76468b123.js"
+  "/poe-cluster-jewel-rating/precache-manifest.af7395ea7ba7debb7f01fd667e3abab6.js"
 );
 
 self.addEventListener('message', (event) => {
