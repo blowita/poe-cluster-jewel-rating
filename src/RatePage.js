@@ -68,10 +68,23 @@ export default withWidth()(function RatePage(props) {
   const [exported, setExported] = React.useState(false)
   const [exportedText, setExportedText] = React.useState('')
 
+  const [importOpen, setImportOpen] = React.useState(false)
+
   const notablesList = React.useMemo(
     () => getNotablesList({ alphaSort, query, searchLocation }),
     [alphaSort, query, searchLocation]
   )
+
+  function handleImport(e) {
+    e.clipboardData.items[0].getAsString(text => {
+      try {
+        setRatings(JSON.parse(text))
+      } catch (err) {
+        //
+      }
+      setImportOpen(false)
+    })
+  }
 
   function handleExport() {
     setExported(false)
@@ -150,12 +163,20 @@ export default withWidth()(function RatePage(props) {
         </Grid>
         <Grid item>
           <Button variant="outlined" onClick={handleExport}>
-            Export Ratings
+            Export
+          </Button>
+        </Grid>
+        <Grid item>
+          <Button
+            variant="outlined"
+            onClick={() => setImportOpen(open => !open)}
+          >
+            Import
           </Button>
         </Grid>
       </Grid>
       {exported && (
-        <Grid container spacing={1}>
+        <Grid container spacing={1} className={classes.searchBar}>
           <IconButton onClick={() => setExported(false)}>
             <IconClear />
           </IconButton>
@@ -163,14 +184,25 @@ export default withWidth()(function RatePage(props) {
             <TextField
               value={exportedText}
               onClick={() => copyToClipboard(exportedText)}
-              multiline
               variant="outlined"
+              size="small"
               fullWidth
             />
           </Box>
           <IconButton onClick={() => copyToClipboard(exportedText)}>
             <IconCopy />
           </IconButton>
+        </Grid>
+      )}
+      {importOpen && (
+        <Grid className={classes.searchBar}>
+          <TextField
+            label="Paste rating JSON here"
+            onPaste={handleImport}
+            variant="outlined"
+            size="small"
+            fullWidth
+          />
         </Grid>
       )}
       <Grid container spacing={1} className={classes.listWrapper}>

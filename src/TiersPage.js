@@ -33,6 +33,9 @@ const useStyles = makeStyles(theme => ({
   ratingSelect: {
     minWidth: 80,
   },
+  searchSelect: {
+    minWidth: 100,
+  },
   listWrapper: {
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(2),
@@ -60,7 +63,9 @@ const ratingBaseOptions = ['ANY', 'N/A', 'S', 'A', 'B', 'C', 'D', 'E', 'F']
 
 export default withWidth()(function TiersPage(props) {
   const [selectedUser, setSelectedUser] = React.useState(users[0])
+  const [searchLocation, setSearchLocation] = React.useState(0)
   const [alphaSort, setAlphaSort] = React.useState(false)
+  const [query, setQuery] = React.useState('')
 
   const [ratings, setRatings] = React.useState(userRatings[users[0]])
 
@@ -100,7 +105,7 @@ export default withWidth()(function TiersPage(props) {
 
   const notablesList = React.useMemo(
     () =>
-      getNotablesList({ alphaSort }).filter(notable => {
+      getNotablesList({ alphaSort, query, searchLocation }).filter(notable => {
         if (selectedRating === 'ANY') {
           return true
         }
@@ -109,7 +114,7 @@ export default withWidth()(function TiersPage(props) {
         }
         return ratings[notable.name] === selectedRating
       }),
-    [alphaSort, ratings, selectedRating]
+    [alphaSort, query, ratings, searchLocation, selectedRating]
   )
 
   const classes = useStyles()
@@ -167,19 +172,51 @@ export default withWidth()(function TiersPage(props) {
           </FormControl>
         </Grid>
         <Grid item>
+          <FormControl
+            variant="outlined"
+            size="small"
+            className={classes.searchSelect}
+          >
+            <InputLabel id="search-select-label">Search in</InputLabel>
+            <Select
+              labelId="search-select-label"
+              labelWidth={80}
+              value={searchLocation}
+              onChange={e => setSearchLocation(e.target.value)}
+            >
+              <MenuItem value={0}>Stats</MenuItem>
+              <MenuItem value={1}>Name</MenuItem>
+              <MenuItem value={2}>Any</MenuItem>
+            </Select>
+          </FormControl>
+        </Grid>
+        <Grid item>
+          <TextField
+            label="Regex search"
+            aria-label="search notables using regex"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            variant="outlined"
+            size="small"
+          />
+        </Grid>
+        <Grid item>
           <IconButton onClick={() => setAlphaSort(sort => !sort)}>
             {alphaSort ? <IconAlphaSort /> : <IconShuffled />}
           </IconButton>
         </Grid>
       </Grid>
       {importOpen && (
-        <TextField
-          label="Paste rating JSON here"
-          value={importedText}
-          onChange={e => setImportedText(e.target.value)}
-          variant="outlined"
-          fullWidth
-        />
+        <Grid className={classes.searchBar}>
+          <TextField
+            label="Paste rating JSON here"
+            value={importedText}
+            onChange={e => setImportedText(e.target.value)}
+            variant="outlined"
+            size="small"
+            fullWidth
+          />
+        </Grid>
       )}
       <Grid container spacing={1} className={classes.listWrapper}>
         {notablesList.map((passive, idx) => (
