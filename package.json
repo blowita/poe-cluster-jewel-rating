@@ -2,11 +2,14 @@
   "name": "poe-cluster-jewel-rating",
   "version": "1.0.0",
   "private": true,
+  "homepage": "http://blowita.github.io/poe-cluster-jewel-rating",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.5",
@@ -32,6 +35,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "standard": "^14.3.1"
   },
